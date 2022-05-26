@@ -32,6 +32,10 @@ TransactionHistory.propTypes = {
       type: PropTypes.string,
       amount: PropTypes.string,
       currency: PropTypes.string,
-    })
+    }),
   ),
 };
+
+function TestHusky() {
+  return null;
+}
