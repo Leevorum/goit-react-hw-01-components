@@ -35,7 +35,3 @@ TransactionHistory.propTypes = {
     }),
   ),
 };
-
-function TestHusky() {
-  return null;
-}
