@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
 import FriendList from './FriendList/FriendList';
