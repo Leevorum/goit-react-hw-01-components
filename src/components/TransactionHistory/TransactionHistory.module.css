@@ -1,0 +1,15 @@
+.transactionHistory {
+  /* border: 1px solid; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tdStyle {
+  border: 1px solid;
+  text-align: center;
+}
+.tdHead {
+  composes: tdStyle;
+  background-color: rgb(6, 172, 147);
+  color: aliceblue;
+}
