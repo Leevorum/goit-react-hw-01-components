@@ -8,8 +8,13 @@
   border: 1px solid;
   text-align: center;
 }
+
 .tdHead {
   composes: tdStyle;
   background-color: rgb(6, 172, 147);
   color: aliceblue;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(215, 220, 217);
 }

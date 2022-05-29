@@ -10,7 +10,7 @@ export default function Statistics({ stats, title }) {
         {stats.map(stat => (
           <li key={stat.id} className={s[stat.label.slice(1)]}>
             <span className={s.label}>{stat.label}</span>
-            <span className={s.percentage}>{stat.percentage}</span>
+            <span className={s.percentage}>{stat.percentage}%</span>
           </li>
         ))}
       </ul>

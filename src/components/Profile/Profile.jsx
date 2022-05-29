@@ -7,7 +7,7 @@ export default function Profile({ username, tag, location, avatar, stats }) {
       <div className={s.description}>
         <img src={avatar} alt={username} className={s.avatar} />
         <p className={s.text}>{username}</p>
-        <p className={s.text}>{tag}</p>
+        <p className={s.text}>@{tag}</p>
         <p className={s.text}>{location}</p>
       </div>
 
